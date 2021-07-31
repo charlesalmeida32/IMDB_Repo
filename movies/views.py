@@ -1,7 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from rest_framework import status
 from rest_framework.authentication import BasicAuthentication
-from rest_framework.viewsets import ViewSet, ModelViewSet, ReadOnlyModelViewSet
+from rest_framework.viewsets import ViewSet, ModelViewSet
 from .models import Movies
 from .serializer import MovieSerializer
 from rest_framework.response import Response
@@ -10,7 +10,8 @@ from .custompermissions import MyPermissions
 
 
 class AdminMovieApiView(ModelViewSet):
-    '''This code will give access to get, post, put, patch, delete to the user having staff privilege'''
+    '''This code will give access to get, post, put, patch, delete to the user having staff privilege.
+    Any other active user will have access to get method only'''
     authentication_classes = [BasicAuthentication]
     permission_classes = [MyPermissions]
     queryset = Movies.objects.all()
@@ -20,6 +21,7 @@ class AdminMovieApiView(ModelViewSet):
 
 # class AdminMovieApiView(ViewSet):
 #     '''This class will allow any admin user to do all of the CRUD operations on the database Movies using API
+#     and other users will have access only to get method
 #     This code will be used if your API requires heavy modification before sending Data the data'''
 #     authentication_classes = [BasicAuthentication]
 #     permission_classes = [MyPermissions]

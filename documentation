@@ -1,12 +1,20 @@
 In order to access the api, please visit the following URL
-Admin: http://127.0.0.1:8000/movies/movies_root_api/movies_root_api/
+Admin: http://(localhost or ip or domain)/movies/movies_root_api/movies_root_api/
 
 The Admin user will be able to perform all of the operations using the API whereas a normal user will only be able to perform GET operations
 
 Following are the supported filters for the API:
 
-Filter String Example:
-http://127.0.0.1:8000/movies/movies_root_api/movies_root_api/?name__contains=The&popularity99__gt=60&popularity99__gt=90
+Filter String Example(Test Cases):
+http://(localhost or ip or domain)/movies/movies_root_api/movies_root_api/?name__contains=The&popularity99__gte=60&popularity99__lte=90
+popularity99: greather than or equal to 60 an less tha equal to 90
+name: contains the word 'the' in it
+
+
+http://(localhost or ip or domain)/movies/movies_root_api/movies_root_api/?name__iexact=The%20Wizard%20of%20Oz&imdb_score=8.3&director__contains=Victor
+name: 'The wizzard of oz'
+IMDB Score: 8.3
+director: Victor
 
 
 
@@ -29,18 +37,18 @@ The movies with the following director will be returned to the user
 3)popularity99
 popularity99=10
 the following filter will return all the movies with popularity99 of 10
-popularity99__gt=10
-the following filter will return all the movies with popularity99 greater that 10
-popularity99__lt=10
-the following filter will return all the movies with popularity99 lesser that 10
+popularity99__gte=10
+the following filter will return all the movies with popularity99 greater or equal to 10
+popularity99__lte=10
+the following filter will return all the movies with popularity99 lesser or equal to 10
 
 4)imdb_score
 imdb_score=5
 the following filter will return all the movies with imdb_score of 5
-imdb_score__gt=5
-the following filter will return all the movies with imdb_score greater that 5
-imdb_score__lt=5
-the following filter will return all the movies with imdb_score lesser that 5
+imdb_score__gte=5
+the following filter will return all the movies with imdb_score greater or equal to 5
+imdb_score__lte=5
+the following filter will return all the movies with imdb_score lesser or equal to 5
 
 
 

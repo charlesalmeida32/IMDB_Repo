@@ -32,7 +32,7 @@ class Movies(models.Model):
     def __str__(self) -> str:
         return self.name
     
-    #Same director cant have the same movie
+    #Same directors can't have the same movie
     class Meta:
         unique_together = ['name', 'director']
 

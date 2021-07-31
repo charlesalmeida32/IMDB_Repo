@@ -4,14 +4,14 @@ from .models import Movies
 
 
 class MoviesFilter(FilterSet):
-    '''This filter class will allow you the filter the results with any of the fields from you database'''
+    '''This filter class will allow you the filter the results in your API with the below mentioned fields from you database'''
     name = filters.CharFilter()
     class Meta:
         model = Movies
         fields = {
             'name':['iexact', 'contains'],
             'director':['iexact', 'contains'],
-            'imdb_score': ['gt', 'lt', 'exact'],
-            'popularity99': ['gt', 'lt', 'exact'],
+            'imdb_score': ['gte', 'lte', 'exact'],
+            'popularity99': ['gte', 'lte', 'exact'],
             'genre': ['contains']
         }
