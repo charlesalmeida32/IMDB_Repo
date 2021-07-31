@@ -25,6 +25,8 @@ class AdminMovieApiView(ModelViewSet):
 #     This code will be used if your API requires heavy modification before sending Data the data'''
 #     authentication_classes = [BasicAuthentication]
 #     permission_classes = [MyPermissions]
+#     # filter_class = MoviesFilter
+    
 
 #     def list(self, request):
 #         '''This method will help the admin user to retrive a all of record from the database'''

@@ -1,0 +1,33 @@
+  serializers Validation
+  
+  
+   # def validate_genre(self, data):
+    #     all_genre_data = Genre.objects.all()
+    #     temp_genre_list = []
+    #     my_genre_object_list = []
+    #     for x in all_genre_data:
+    #         temp_genre_list.append(x.genre.title())
+
+    #     if isinstance(data, list):
+    #         print(data)
+    #         for x in data:
+    #             print("Inside For")
+    #             if x.title() in temp_genre_list:
+    #                 my_genre_object_list.append(Genre.objects.get(genre=x))
+    #                 print(Genre.objects.get(genre=x))
+    #             else:
+    #                 item = Genre.objects.create(genre=x)
+    #                 item.save()
+    #                 my_genre_object_list.append(item)
+    #         return my_genre_object_list
+    #     else:
+            # raise serializers.ValidationError("Genre Must be a list/array")
+
+
+
+models.py
+class Genre(models.Model):
+    genre = models.CharField(max_length=20)
+
+    def __str__(self) -> str:
+        return self.genre
