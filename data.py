@@ -2,7 +2,7 @@ from datetime import datetime
 import requests
 data = [
   {
-    "99popularity": 83.0,
+    "popularity99": 83.0,
     "director": "Victor Fleming",
     "genre": [
       "Adventure",
@@ -14,7 +14,7 @@ data = [
     "name": "The Wizard of Oz"
   },
   {
-    "99popularity": 88.0,
+    "popularity99": 88.0,
     "director": "George Lucas",
     "genre": [
       "Action",
@@ -26,7 +26,7 @@ data = [
     "name": "Star Wars"
   },
   {
-    "99popularity": 66.0,
+    "popularity99": 66.0,
     "director": "Giovanni Pastrone",
     "genre": [
       "Adventure",
@@ -37,7 +37,7 @@ data = [
     "name": "Cabiria"
   },
   {
-    "99popularity": 87.0,
+    "popularity99": 87.0,
     "director": "Alfred Hitchcock",
     "genre": [
       "Horror",
@@ -48,7 +48,7 @@ data = [
     "name": "Psycho"
   },
   {
-    "99popularity": 80.0,
+    "popularity99": 80.0,
     "director": "Merian C. Cooper",
     "genre": [
       "Adventure",
@@ -59,7 +59,7 @@ data = [
     "name": "King Kong"
   },
   {
-    "99popularity": 84.0,
+    "popularity99": 84.0,
     "director": "Fritz Lang",
     "genre": [
       "Adventure",
@@ -70,7 +70,7 @@ data = [
     "name": "Metropolis"
   },
   {
-    "99popularity": 86.0,
+    "popularity99": 86.0,
     "director": "Marc Daniels",
     "genre": [
       "Adventure",
@@ -80,7 +80,7 @@ data = [
     "name": "Star Trek"
   },
   {
-    "99popularity": 88.0,
+    "popularity99": 88.0,
     "director": "Michael Curtiz",
     "genre": [
       "Drama",
@@ -91,7 +91,7 @@ data = [
     "name": "Casablanca"
   },
   {
-    "99popularity": 79.0,
+    "popularity99": 79.0,
     "director": "William Cottrell",
     "genre": [
       "Animation",
@@ -104,7 +104,7 @@ data = [
     "name": "Snow White and the Seven Dwarfs"
   },
   {
-    "99popularity": 84.0,
+    "popularity99": 84.0,
     "director": "Stanley Kubrick",
     "genre": [
       "Adventure",
@@ -115,7 +115,7 @@ data = [
     "name": "2001 : A Space Odyssey"
   },
   {
-    "99popularity": 92.0,
+    "popularity99": 92.0,
     "director": "Francis Ford Coppola",
     "genre": [
       "Crime",
@@ -125,7 +125,7 @@ data = [
     "name": "The Godfather"
   },
   {
-    "99popularity": 71.0,
+    "popularity99": 71.0,
     "director": "D.W. Griffith",
     "genre": [
       "Drama",
@@ -138,7 +138,7 @@ data = [
     "name": "The Birth of a Nation"
   },
   {
-    "99popularity": 81.0,
+    "popularity99": 81.0,
     "director": "Alfred Hitchcock",
     "genre": [
       "Crime",
@@ -150,7 +150,7 @@ data = [
     "name": "Shadow of a Doubt"
   },
   {
-    "99popularity": 83.0,
+    "popularity99": 83.0,
     "director": "Steven Spielberg",
     "genre": [
       "Thriller"
@@ -159,7 +159,7 @@ data = [
     "name": "Jaws"
   },
   {
-    "99popularity": 64.0,
+    "popularity99": 64.0,
     "director": "J. Searle Dawley",
     "genre": [
       "Fantasy",
@@ -169,7 +169,7 @@ data = [
     "name": "Snow White"
   },
   {
-    "99popularity": 86.0,
+    "popularity99": 86.0,
     "director": "Francis Ford Coppola",
     "genre": [
       "Drama",
@@ -179,7 +179,7 @@ data = [
     "name": "Apocalypse Now"
   },
   {
-    "99popularity": 82.0,
+    "popularity99": 82.0,
     "director": "Victor Fleming",
     "genre": [
       "Drama",
@@ -190,7 +190,7 @@ data = [
     "name": "Gone with the Wind"
   },
   {
-    "99popularity": 76.0,
+    "popularity99": 76.0,
     "director": "Ernst Lubitsch",
     "genre": [
       "Musical",
@@ -201,7 +201,7 @@ data = [
     "name": "The Merry Widow"
   },
   {
-    "99popularity": 81.0,
+    "popularity99": 81.0,
     "director": "John Ford",
     "genre": [
       "Adventure",
@@ -212,7 +212,7 @@ data = [
     "name": "The Searchers"
   },
   {
-    "99popularity": 86.0,
+    "popularity99": 86.0,
     "director": "Alfred Hitchcock",
     "genre": [
       "Crime",
@@ -224,7 +224,7 @@ data = [
     "name": "Vertigo"
   },
   {
-    "99popularity": 73.0,
+    "popularity99": 73.0,
     "director": "Terence Young",
     "genre": [
       "Action",
@@ -235,7 +235,7 @@ data = [
     "name": "Dr. No"
   },
   {
-    "99popularity": 83.0,
+    "popularity99": 83.0,
     "director": "Orson Welles",
     "genre": [
       "Crime",
@@ -246,7 +246,7 @@ data = [
     "name": "Touch of Evil"
   },
   {
-    "99popularity": 74.0,
+    "popularity99": 74.0,
     "director": "Merian C. Cooper",
     "genre": [
       "Adventure",
@@ -256,7 +256,7 @@ data = [
     "name": "Chang : A Drama of the Wilderness"
   },
   {
-    "99popularity": 81.0,
+    "popularity99": 81.0,
     "director": "William Friedkin",
     "genre": [
       "Horror"
@@ -265,7 +265,7 @@ data = [
     "name": "The Exorcist"
   },
   {
-    "99popularity": 86.0,
+    "popularity99": 86.0,
     "director": "Orson Welles",
     "genre": [
       "Drama",
@@ -275,7 +275,7 @@ data = [
     "name": "Citizen Kane"
   },
   {
-    "99popularity": 81.0,
+    "popularity99": 81.0,
     "director": "James Cameron",
     "genre": [
       "Action",
@@ -286,7 +286,7 @@ data = [
     "name": "The Terminator"
   },
   {
-    "99popularity": 81.0,
+    "popularity99": 81.0,
     "director": "Roman Polanski",
     "genre": [
       "Drama",
@@ -297,7 +297,7 @@ data = [
     "name": "Rosemarys Baby"
   },
   {
-    "99popularity": 81.0,
+    "popularity99": 81.0,
     "director": "Sergei M. Eisenstein",
     "genre": [
       "Drama",
@@ -308,7 +308,7 @@ data = [
     "name": "Bronenosets Potyomkin"
   },
   {
-    "99popularity": 88.0,
+    "popularity99": 88.0,
     "director": "Irvin Kershner",
     "genre": [
       "Action",
@@ -319,7 +319,7 @@ data = [
     "name": "Star Wars : Episode V - The Empire Strikes Back"
   },
   {
-    "99popularity": 71.0,
+    "popularity99": 71.0,
     "director": "Harry O. Hoyt",
     "genre": [
       "Adventure",
@@ -332,7 +332,7 @@ data = [
     "name": "The Lost World"
   },
   {
-    "99popularity": 85.0,
+    "popularity99": 85.0,
     "director": "Stanley Kubrick",
     "genre": [
       "Crime",
@@ -343,7 +343,7 @@ data = [
     "name": "A Clockwork Orange"
   },
   {
-    "99popularity": 80.0,
+    "popularity99": 80.0,
     "director": "James Whale",
     "genre": [
       "Drama",
@@ -354,7 +354,7 @@ data = [
     "name": "Frankenstein"
   },
   {
-    "99popularity": 85.0,
+    "popularity99": 85.0,
     "director": "Lisa Simon",
     "genre": [
       "Animation",
@@ -367,7 +367,7 @@ data = [
     "name": "Sesame Street"
   },
   {
-    "99popularity": 82.0,
+    "popularity99": 82.0,
     "director": "Jean Renoir",
     "genre": [
       "Drama",
@@ -377,7 +377,7 @@ data = [
     "name": "La grande illusion"
   },
   {
-    "99popularity": 87.0,
+    "popularity99": 87.0,
     "director": "Steven Spielberg",
     "genre": [
       "Action",
@@ -387,7 +387,7 @@ data = [
     "name": "Raiders of the Lost Ark"
   },
   {
-    "99popularity": 80.0,
+    "popularity99": 80.0,
     "director": "George A. Romero",
     "genre": [
       "Horror",
@@ -397,7 +397,7 @@ data = [
     "name": "Night of the Living Dead"
   },
   {
-    "99popularity": 53.0,
+    "popularity99": 53.0,
     "director": "Larry Semon",
     "genre": [
       "Comedy",
@@ -409,7 +409,7 @@ data = [
     "name": "The Wizard of Oz"
   },
   {
-    "99popularity": 68.0,
+    "popularity99": 68.0,
     "director": "George Lucas",
     "genre": [
       "Drama",
@@ -421,7 +421,7 @@ data = [
     "name": "THX 1138"
   },
   {
-    "99popularity": 79.0,
+    "popularity99": 79.0,
     "director": "Steven Spielberg",
     "genre": [
       "Adventure",
@@ -434,7 +434,7 @@ data = [
     "name": "E.T. : The Extra-Terrestrial"
   },
   {
-    "99popularity": 69.0,
+    "popularity99": 69.0,
     "director": "Maurice Tourneur",
     "genre": [
       "Comedy",
@@ -444,7 +444,7 @@ data = [
     "name": "The Poor Little Rich Girl"
   },
   {
-    "99popularity": 46.0,
+    "popularity99": 46.0,
     "director": "James Parrott",
     "genre": [
       "Short",
@@ -455,7 +455,7 @@ data = [
     "name": "The Tin Man"
   },
   {
-    "99popularity": 86.0,
+    "popularity99": 86.0,
     "director": "Martin Scorsese",
     "genre": [
       "Drama",
@@ -465,7 +465,7 @@ data = [
     "name": "Taxi Driver"
   },
   {
-    "99popularity": 90.0,
+    "popularity99": 90.0,
     "director": "Sergio Leone",
     "genre": [
       "Adventure",
@@ -475,7 +475,7 @@ data = [
     "name": "Il buono, il brutto, il cattivo."
   },
   {
-    "99popularity": 66.0,
+    "popularity99": 66.0,
     "director": "D.W. Griffith",
     "genre": [
       "Short",
@@ -486,7 +486,7 @@ data = [
     "name": "The Battle at Elderbush Gulch"
   },
   {
-    "99popularity": 84.0,
+    "popularity99": 84.0,
     "director": "Stanley Donen",
     "genre": [
       "Comedy",
@@ -497,7 +497,7 @@ data = [
     "name": "Singin in the Rain"
   },
   {
-    "99popularity": 84.0,
+    "popularity99": 84.0,
     "director": "Elia Kazan",
     "genre": [
       "Crime",
@@ -508,7 +508,7 @@ data = [
     "name": "On the Waterfront"
   },
   {
-    "99popularity": 84.0,
+    "popularity99": 84.0,
     "director": "Clyde Bruckman",
     "genre": [
       "Comedy",
@@ -520,7 +520,7 @@ data = [
     "name": "The General"
   },
   {
-    "99popularity": 78.0,
+    "popularity99": 78.0,
     "director": "Ivan Reitman",
     "genre": [
       "Adventure",
@@ -531,7 +531,7 @@ data = [
     "name": "Ghost Busters"
   },
   {
-    "99popularity": 71.0,
+    "popularity99": 71.0,
     "director": "W.S. Van Dyke",
     "genre": [
       "Action",
@@ -542,7 +542,7 @@ data = [
     "name": "Tarzan the Ape Man"
   },
   {
-    "99popularity": 60.0,
+    "popularity99": 60.0,
     "director": "L. Frank Baum",
     "genre": [
       "Family",
@@ -554,7 +554,7 @@ data = [
     "name": "His Majesty, the Scarecrow of Oz"
   },
   {
-    "99popularity": 95.0,
+    "popularity99": 95.0,
     "director": "John Brahm",
     "genre": [
       "Drama",
@@ -567,7 +567,7 @@ data = [
     "name": "The Twilight Zone"
   },
   {
-    "99popularity": 75.0,
+    "popularity99": 75.0,
     "director": "Edwin S. Porter",
     "genre": [
       "Short",
@@ -577,7 +577,7 @@ data = [
     "name": "The Great Train Robbery"
   },
   {
-    "99popularity": 79.0,
+    "popularity99": 79.0,
     "director": "Guy Hamilton",
     "genre": [
       "Action",
@@ -588,7 +588,7 @@ data = [
     "name": "Goldfinger"
   },
   {
-    "99popularity": 81.0,
+    "popularity99": 81.0,
     "director": "Federico Fellini",
     "genre": [
       "Comedy",
@@ -598,7 +598,7 @@ data = [
     "name": "La dolce vita"
   },
   {
-    "99popularity": 85.0,
+    "popularity99": 85.0,
     "director": "Ridley Scott",
     "genre": [
       "Adventure",
@@ -610,7 +610,7 @@ data = [
     "name": "Alien"
   },
   {
-    "99popularity": 81.0,
+    "popularity99": 81.0,
     "director": "F.W. Murnau",
     "genre": [
       "Fantasy",
@@ -620,7 +620,7 @@ data = [
     "name": "Nosferatu, eine Symphonie des Grauens"
   },
   {
-    "99popularity": 85.0,
+    "popularity99": 85.0,
     "director": "Stanley Kubrick",
     "genre": [
       "Horror",
@@ -630,7 +630,7 @@ data = [
     "name": "The Shining"
   },
   {
-    "99popularity": 86.0,
+    "popularity99": 86.0,
     "director": "Stanley Kubrick",
     "genre": [
       "Comedy",
@@ -640,7 +640,7 @@ data = [
     "name": "Dr. Strangelove or : How I Learned to Stop Worrying and Love the Bomb"
   },
   {
-    "99popularity": 82.0,
+    "popularity99": 82.0,
     "director": "Brian De Palma",
     "genre": [
       "Crime",
@@ -651,7 +651,7 @@ data = [
     "name": "Scarface"
   },
   {
-    "99popularity": 81.0,
+    "popularity99": 81.0,
     "director": "John G. Avildsen",
     "genre": [
       "Drama",
@@ -662,7 +662,7 @@ data = [
     "name": "Rocky"
   },
   {
-    "99popularity": 90.0,
+    "popularity99": 90.0,
     "director": "Mark Kirkland",
     "genre": [
       "Animation",
@@ -672,7 +672,7 @@ data = [
     "name": "The Simpsons"
   },
   {
-    "99popularity": 80.0,
+    "popularity99": 80.0,
     "director": "Luis Bu1uel",
     "genre": [
       "Short",
@@ -682,7 +682,7 @@ data = [
     "name": "Un chien andalou"
   },
   {
-    "99popularity": 77.0,
+    "popularity99": 77.0,
     "director": "Tod Browning",
     "genre": [
       "Fantasy",
@@ -692,7 +692,7 @@ data = [
     "name": "Dracula"
   },
   {
-    "99popularity": 75.0,
+    "popularity99": 75.0,
     "director": "Ted Kotcheff",
     "genre": [
       "Action",
@@ -704,7 +704,7 @@ data = [
     "name": "First Blood"
   },
   {
-    "99popularity": 80.0,
+    "popularity99": 80.0,
     "director": "Joseph Barbera",
     "genre": [
       "Animation",
@@ -715,7 +715,7 @@ data = [
     "name": "The Flintstones"
   },
   {
-    "99popularity": 77.0,
+    "popularity99": 77.0,
     "director": "Oscar Rudolph",
     "genre": [
       "Action",
@@ -731,7 +731,7 @@ data = [
     "name": "Batman"
   },
   {
-    "99popularity": 70.0,
+    "popularity99": 70.0,
     "director": "John Ford",
     "genre": [
       "Adventure",
@@ -741,7 +741,7 @@ data = [
     "name": "The Lost Patrol"
   },
   {
-    "99popularity": 81.0,
+    "popularity99": 81.0,
     "director": "Mervyn LeRoy",
     "genre": [
       "Crime",
@@ -752,7 +752,7 @@ data = [
     "name": "I Am a Fugitive from a Chain Gang"
   },
   {
-    "99popularity": 84.0,
+    "popularity99": 84.0,
     "director": "Robert Zemeckis",
     "genre": [
       "Adventure",
@@ -763,7 +763,7 @@ data = [
     "name": "Back to the Future"
   },
   {
-    "99popularity": 79.0,
+    "popularity99": 79.0,
     "director": "John Boorman",
     "genre": [
       "Adventure",
@@ -774,7 +774,7 @@ data = [
     "name": "Deliverance"
   },
   {
-    "99popularity": 84.0,
+    "popularity99": 84.0,
     "director": "Alfred Hitchcock",
     "genre": [
       "Mystery",
@@ -785,7 +785,7 @@ data = [
     "name": "Rebecca"
   },
   {
-    "99popularity": 80.0,
+    "popularity99": 80.0,
     "director": "Edward F. Cline",
     "genre": [
       "Comedy",
@@ -796,7 +796,7 @@ data = [
     "name": "The Scarecrow"
   },
   {
-    "99popularity": 75.0,
+    "popularity99": 75.0,
     "director": "Tobe Hooper",
     "genre": [
       "Horror",
@@ -807,7 +807,7 @@ data = [
     "name": "The Texas Chain Saw Massacre"
   },
   {
-    "99popularity": 84.0,
+    "popularity99": 84.0,
     "director": "David Lean",
     "genre": [
       "Adventure",
@@ -818,7 +818,7 @@ data = [
     "name": "The Bridge on the River Kwai"
   },
   {
-    "99popularity": 87.0,
+    "popularity99": 87.0,
     "director": "Frank Capra",
     "genre": [
       "Drama",
@@ -829,7 +829,7 @@ data = [
     "name": "Its a Wonderful Life"
   },
   {
-    "99popularity": 71.0,
+    "popularity99": 71.0,
     "director": "Steven Soderbergh",
     "genre": [
       "Drama"
@@ -838,7 +838,7 @@ data = [
     "name": "Sex, Lies, and Videotape"
   },
   {
-    "99popularity": 79.0,
+    "popularity99": 79.0,
     "director": "Don Siegel",
     "genre": [
       "Action",
@@ -849,7 +849,7 @@ data = [
     "name": "Dirty Harry"
   },
   {
-    "99popularity": 79.0,
+    "popularity99": 79.0,
     "director": "George Cukor",
     "genre": [
       "Drama",
@@ -861,7 +861,7 @@ data = [
     "name": "My Fair Lady"
   },
   {
-    "99popularity": 75.0,
+    "popularity99": 75.0,
     "director": "Samuel Armstrong",
     "genre": [
       "Animation",
@@ -872,7 +872,7 @@ data = [
     "name": "Dumbo"
   },
   {
-    "99popularity": 79.0,
+    "popularity99": 79.0,
     "director": "Alfred Hitchcock",
     "genre": [
       "Horror",
@@ -883,7 +883,7 @@ data = [
     "name": "The Birds"
   },
   {
-    "99popularity": 72.0,
+    "popularity99": 72.0,
     "director": "James W. Horne",
     "genre": [
       "Comedy",
@@ -894,7 +894,7 @@ data = [
     "name": "College"
   },
   {
-    "99popularity": 74.0,
+    "popularity99": 74.0,
     "director": "James Cameron",
     "genre": [
       "Drama",
@@ -905,7 +905,7 @@ data = [
     "name": "Titanic"
   },
   {
-    "99popularity": 82.0,
+    "popularity99": 82.0,
     "director": "William Wyler",
     "genre": [
       "Action",
@@ -918,7 +918,7 @@ data = [
     "name": "Ben-Hur"
   },
   {
-    "99popularity": 90.0,
+    "popularity99": 90.0,
     "director": "Quentin Tarantino",
     "genre": [
       "Crime",
@@ -928,7 +928,7 @@ data = [
     "name": "Pulp Fiction"
   },
   {
-    "99popularity": 87.0,
+    "popularity99": 87.0,
     "director": "Alfred Hitchcock",
     "genre": [
       "Crime",
@@ -940,7 +940,7 @@ data = [
     "name": "Rear Window"
   },
   {
-    "99popularity": 85.0,
+    "popularity99": 85.0,
     "director": "James Cameron",
     "genre": [
       "Action",
@@ -951,7 +951,7 @@ data = [
     "name": "Aliens"
   },
   {
-    "99popularity": 70.0,
+    "popularity99": 70.0,
     "director": "John Cromwell",
     "genre": [
       "Drama",
@@ -962,7 +962,7 @@ data = [
     "name": "Algiers"
   },
   {
-    "99popularity": 81.0,
+    "popularity99": 81.0,
     "director": "Erich von Stroheim",
     "genre": [
       "Drama"
@@ -971,7 +971,7 @@ data = [
     "name": "Greed"
   },
   {
-    "99popularity": 87.0,
+    "popularity99": 87.0,
     "director": "Jonathan Demme",
     "genre": [
       "Crime",
@@ -981,7 +981,7 @@ data = [
     "name": "The Silence of the Lambs"
   },
   {
-    "99popularity": 79.0,
+    "popularity99": 79.0,
     "director": "Charles Chaplin",
     "genre": [
       "Comedy",
@@ -993,7 +993,7 @@ data = [
     "name": "The Circus"
   },
   {
-    "99popularity": 90.0,
+    "popularity99": 90.0,
     "director": "Kim Manners",
     "genre": [
       "Drama",
@@ -1005,7 +1005,7 @@ data = [
     "name": "The X Files"
   },
   {
-    "99popularity": 85.0,
+    "popularity99": 85.0,
     "director": "James Cameron",
     "genre": [
       "Action",
@@ -1016,7 +1016,7 @@ data = [
     "name": "Terminator 2 : Judgment Day"
   },
   {
-    "99popularity": 60.0,
+    "popularity99": 60.0,
     "director": "Joseph C. Terry",
     "genre": [
       "Talk-Show"
@@ -1025,7 +1025,7 @@ data = [
     "name": "The Oprah Winfrey Show"
   },
   {
-    "99popularity": 82.0,
+    "popularity99": 82.0,
     "director": "Mike Nichols",
     "genre": [
       "Comedy",
@@ -1036,7 +1036,7 @@ data = [
     "name": "The Graduate"
   },
   {
-    "99popularity": 55.0,
+    "popularity99": 55.0,
     "director": "Henry Lehrman",
     "genre": [
       "Comedy",
@@ -1046,7 +1046,7 @@ data = [
     "name": "The Bangville Police"
   },
   {
-    "99popularity": 87.0,
+    "popularity99": 87.0,
     "director": "Andy Wachowski",
     "genre": [
       "Action",
@@ -1057,7 +1057,7 @@ data = [
     "name": "The Matrix"
   },
   {
-    "99popularity": 70.0,
+    "popularity99": 70.0,
     "director": "Oscar Rudolph",
     "genre": [
       "Comedy",
@@ -1067,7 +1067,7 @@ data = [
     "name": "The Brady Bunch"
   },
   {
-    "99popularity": 85.0,
+    "popularity99": 85.0,
     "director": "David Lean",
     "genre": [
       "Adventure",
@@ -1080,7 +1080,7 @@ data = [
     "name": "Lawrence of Arabia"
   },
   {
-    "99popularity": 74.0,
+    "popularity99": 74.0,
     "director": "Wes Craven",
     "genre": [
       "Horror",
@@ -1090,7 +1090,7 @@ data = [
     "name": "A Nightmare on Elm Street"
   },
   {
-    "99popularity": 78.0,
+    "popularity99": 78.0,
     "director": "George Schaefer",
     "genre": [
       "Comedy",
@@ -1100,7 +1100,7 @@ data = [
     "name": "Pygmalion"
   },
   {
-    "99popularity": 86.0,
+    "popularity99": 86.0,
     "director": "Alfred Hitchcock",
     "genre": [
       "Adventure",
@@ -1113,7 +1113,7 @@ data = [
     "name": "North by Northwest"
   },
   {
-    "99popularity": 79.0,
+    "popularity99": 79.0,
     "director": "Robert Wise",
     "genre": [
       "Biography",
@@ -1125,7 +1125,7 @@ data = [
     "name": "The Sound of Music"
   },
   {
-    "99popularity": 78.0,
+    "popularity99": 78.0,
     "director": "Jack Arnold",
     "genre": [
       "Comedy",
@@ -1135,7 +1135,7 @@ data = [
     "name": "Gilligans Island"
   },
   {
-    "99popularity": 76.0,
+    "popularity99": 76.0,
     "director": "James Algar",
     "genre": [
       "Animation",
@@ -1146,7 +1146,7 @@ data = [
     "name": "Bambi"
   },
   {
-    "99popularity": 78.0,
+    "popularity99": 78.0,
     "director": "Jerome Robbins",
     "genre": [
       "Crime",
@@ -1158,7 +1158,7 @@ data = [
     "name": "West Side Story"
   },
   {
-    "99popularity": 79.0,
+    "popularity99": 79.0,
     "director": "Fred Zinnemann",
     "genre": [
       "Drama",
@@ -1169,7 +1169,7 @@ data = [
     "name": "From Here to Eternity"
   },
   {
-    "99popularity": 79.0,
+    "popularity99": 79.0,
     "director": "John Carpenter",
     "genre": [
       "Horror",
@@ -1179,7 +1179,7 @@ data = [
     "name": "Halloween"
   },
   {
-    "99popularity": 90.0,
+    "popularity99": 90.0,
     "director": "William Asher",
     "genre": [
       "Comedy",
@@ -1189,7 +1189,7 @@ data = [
     "name": "I Love Lucy"
   },
   {
-    "99popularity": 74.0,
+    "popularity99": 74.0,
     "director": "Karl Freund",
     "genre": [
       "Romance",
@@ -1199,7 +1199,7 @@ data = [
     "name": "Mad Love"
   },
   {
-    "99popularity": 83.0,
+    "popularity99": 83.0,
     "director": "Ridley Scott",
     "genre": [
       "Drama",
@@ -1210,7 +1210,7 @@ data = [
     "name": "Blade Runner"
   },
   {
-    "99popularity": 77.0,
+    "popularity99": 77.0,
     "director": "Robert Stevenson",
     "genre": [
       "Comedy",
@@ -1222,7 +1222,7 @@ data = [
     "name": "Mary Poppins"
   },
   {
-    "99popularity": 83.0,
+    "popularity99": 83.0,
     "director": "Richard Marquand",
     "genre": [
       "Action",
@@ -1234,7 +1234,7 @@ data = [
     "name": "Star Wars : Episode VI - Return of the Jedi"
   },
   {
-    "99popularity": 78.0,
+    "popularity99": 78.0,
     "director": "Steven Spielberg",
     "genre": [
       "Drama",
@@ -1244,7 +1244,7 @@ data = [
     "name": "Close Encounters of the Third Kind"
   },
   {
-    "99popularity": 88.0,
+    "popularity99": 88.0,
     "director": "Akira Kurosawa",
     "genre": [
       "Adventure",
@@ -1254,7 +1254,7 @@ data = [
     "name": "Shichinin no samurai"
   },
   {
-    "99popularity": 80.0,
+    "popularity99": 80.0,
     "director": "James Whale",
     "genre": [
       "Horror",
@@ -1264,7 +1264,7 @@ data = [
     "name": "Bride of Frankenstein"
   },
   {
-    "99popularity": 85.0,
+    "popularity99": 85.0,
     "director": "John Huston",
     "genre": [
       "Adventure",
@@ -1276,7 +1276,7 @@ data = [
     "name": "The Treasure of the Sierra Madre"
   },
   {
-    "99popularity": 60.0,
+    "popularity99": 60.0,
     "director": "Phil Karlson",
     "genre": [
       "Drama",
@@ -1287,7 +1287,7 @@ data = [
     "name": "5 Against the House"
   },
   {
-    "99popularity": 79.0,
+    "popularity99": 79.0,
     "director": "Akira Kurosawa",
     "genre": [
       "Drama",
@@ -1298,7 +1298,7 @@ data = [
     "name": "Kagemusha"
   },
   {
-    "99popularity": 47.0,
+    "popularity99": 47.0,
     "director": "D.W. Griffith",
     "genre": [
       "Short",
@@ -1308,7 +1308,7 @@ data = [
     "name": "His Trust Fulfilled"
   },
   {
-    "99popularity": 53.0,
+    "popularity99": 53.0,
     "director": "D.W. Griffith",
     "genre": [
       "Short",
@@ -1319,7 +1319,7 @@ data = [
     "name": "His Trust"
   },
   {
-    "99popularity": 73.0,
+    "popularity99": 73.0,
     "director": "Ishirccab Honda",
     "genre": [
       "Drama",
@@ -1331,7 +1331,7 @@ data = [
     "name": "Gojira"
   },
   {
-    "99popularity": 80.0,
+    "popularity99": 80.0,
     "director": "Stanley Kubrick",
     "genre": [
       "Action",
@@ -1344,7 +1344,7 @@ data = [
     "name": "Spartacus"
   },
   {
-    "99popularity": 71.0,
+    "popularity99": 71.0,
     "director": "Winsor McCay",
     "genre": [
       "Animation",
@@ -1354,7 +1354,7 @@ data = [
     "name": "Dreams of the Rarebit Fiend : The Pet"
   },
   {
-    "99popularity": 84.0,
+    "popularity99": 84.0,
     "director": "John Huston",
     "genre": [
       "Crime",
@@ -1365,7 +1365,7 @@ data = [
     "name": "The Maltese Falcon"
   },
   {
-    "99popularity": 80.0,
+    "popularity99": 80.0,
     "director": "Franklin J. Schaffner",
     "genre": [
       "Adventure",
@@ -1376,7 +1376,7 @@ data = [
     "name": "Planet of the Apes"
   },
   {
-    "99popularity": 72.0,
+    "popularity99": 72.0,
     "director": "Frank Lloyd",
     "genre": [
       "Adventure",
@@ -1387,7 +1387,7 @@ data = [
     "name": "The Sea Hawk"
   },
   {
-    "99popularity": 82.0,
+    "popularity99": 82.0,
     "director": "Lewis Milestone",
     "genre": [
       "Action",
@@ -1399,7 +1399,7 @@ data = [
     "name": "All Quiet on the Western Front"
   },
   {
-    "99popularity": 74.0,
+    "popularity99": 74.0,
     "director": "Carl Boese",
     "genre": [
       "Fantasy",
@@ -1409,7 +1409,7 @@ data = [
     "name": "Der Golem, wie er in die Welt kam"
   },
   {
-    "99popularity": 59.0,
+    "popularity99": 59.0,
     "director": "Gordon Douglas",
     "genre": [
       "Action",
@@ -1421,7 +1421,7 @@ data = [
     "name": "In Like Flint"
   },
   {
-    "99popularity": 74.0,
+    "popularity99": 74.0,
     "director": "Leo McCarey",
     "genre": [
       "Drama",
@@ -1431,7 +1431,7 @@ data = [
     "name": "The Bells of St. Marys"
   },
   {
-    "99popularity": 77.0,
+    "popularity99": 77.0,
     "director": "Steven Spielberg",
     "genre": [
       "Mystery",
@@ -1441,7 +1441,7 @@ data = [
     "name": "Duel"
   },
   {
-    "99popularity": 78.0,
+    "popularity99": 78.0,
     "director": "Sergei M. Eisenstein",
     "genre": [
       "Drama"
@@ -1450,7 +1450,7 @@ data = [
     "name": "Stachka"
   },
   {
-    "99popularity": 71.0,
+    "popularity99": 71.0,
     "director": "Fred Zinnemann",
     "genre": [
       "Musical",
@@ -1461,7 +1461,7 @@ data = [
     "name": "Oklahoma!"
   },
   {
-    "99popularity": 74.0,
+    "popularity99": 74.0,
     "director": "Maya Deren",
     "genre": [
       "Short"
@@ -1470,7 +1470,7 @@ data = [
     "name": "At Land"
   },
   {
-    "99popularity": 79.0,
+    "popularity99": 79.0,
     "director": "Steven Spielberg",
     "genre": [
       "Action",
@@ -1482,7 +1482,7 @@ data = [
     "name": "Jurassic Park"
   },
   {
-    "99popularity": 79.0,
+    "popularity99": 79.0,
     "director": "John Ford",
     "genre": [
       "Action",
@@ -1494,7 +1494,7 @@ data = [
     "name": "Stagecoach"
   },
   {
-    "99popularity": 86.0,
+    "popularity99": 86.0,
     "director": "Stanley Kubrick",
     "genre": [
       "Crime",
@@ -1505,7 +1505,7 @@ data = [
     "name": "Paths of Glory"
   },
   {
-    "99popularity": 77.0,
+    "popularity99": 77.0,
     "director": "Jerry Paris",
     "genre": [
       "Comedy",
@@ -1516,7 +1516,7 @@ data = [
     "name": "Happy Days"
   },
   {
-    "99popularity": 68.0,
+    "popularity99": 68.0,
     "director": "John Badham",
     "genre": [
       "Drama",
@@ -1527,7 +1527,7 @@ data = [
     "name": "Saturday Night Fever"
   },
   {
-    "99popularity": 81.0,
+    "popularity99": 81.0,
     "director": "George Cukor",
     "genre": [
       "Comedy",
@@ -1537,7 +1537,7 @@ data = [
     "name": "The Philadelphia Story"
   },
   {
-    "99popularity": 82.0,
+    "popularity99": 82.0,
     "director": "Federico Fellini",
     "genre": [
       "Drama",
@@ -1547,7 +1547,7 @@ data = [
     "name": "8xe5"
   },
   {
-    "99popularity": 86.0,
+    "popularity99": 86.0,
     "director": "Douglas Camfield",
     "genre": [
       "Adventure",
@@ -1558,7 +1558,7 @@ data = [
     "name": "Doctor Who"
   },
   {
-    "99popularity": 86.0,
+    "popularity99": 86.0,
     "director": "Fritz Lang",
     "genre": [
       "Crime",
@@ -1568,7 +1568,7 @@ data = [
     "name": "M"
   },
   {
-    "99popularity": 74.0,
+    "popularity99": 74.0,
     "director": "John Huston",
     "genre": [
       "Adventure",
@@ -1578,7 +1578,7 @@ data = [
     "name": "Moby Dick"
   },
   {
-    "99popularity": 74.0,
+    "popularity99": 74.0,
     "director": "Brian De Palma",
     "genre": [
       "Horror",
@@ -1588,7 +1588,7 @@ data = [
     "name": "Carrie"
   },
   {
-    "99popularity": 79.0,
+    "popularity99": 79.0,
     "director": "Nicholas Ray",
     "genre": [
       "Drama",
@@ -1598,7 +1598,7 @@ data = [
     "name": "Rebel Without a Cause"
   },
   {
-    "99popularity": 73.0,
+    "popularity99": 73.0,
     "director": "Richard Donner",
     "genre": [
       "Action",
@@ -1610,7 +1610,7 @@ data = [
     "name": "Superman"
   },
   {
-    "99popularity": 88.0,
+    "popularity99": 88.0,
     "director": "Peter Harris",
     "genre": [
       "Comedy",
@@ -1621,7 +1621,7 @@ data = [
     "name": "The Muppet Show"
   },
   {
-    "99popularity": 77.0,
+    "popularity99": 77.0,
     "director": "Norman Ferguson",
     "genre": [
       "Animation",
@@ -1634,7 +1634,7 @@ data = [
     "name": "Pinocchio"
   },
   {
-    "99popularity": 75.0,
+    "popularity99": 75.0,
     "director": "Arthur Lipsett",
     "genre": [
       "Short"
@@ -1643,7 +1643,7 @@ data = [
     "name": "21-87"
   },
   {
-    "99popularity": 81.0,
+    "popularity99": 81.0,
     "director": "Joseph Barbera",
     "genre": [
       "Animation",
@@ -1656,7 +1656,7 @@ data = [
     "name": "Scooby Doo, Where Are You!"
   },
   {
-    "99popularity": 71.0,
+    "popularity99": 71.0,
     "director": "Joy Batchelor",
     "genre": [
       "Animation",
@@ -1666,7 +1666,7 @@ data = [
     "name": "Animal Farm"
   },
   {
-    "99popularity": 48.0,
+    "popularity99": 48.0,
     "director": "Ray Enright",
     "genre": [
       "Comedy",
@@ -1678,7 +1678,7 @@ data = [
     "name": "Swing Your Lady"
   },
   {
-    "99popularity": 78.0,
+    "popularity99": 78.0,
     "director": "George Stevens",
     "genre": [
       "Drama",
@@ -1688,7 +1688,7 @@ data = [
     "name": "Shane"
   },
   {
-    "99popularity": 69.0,
+    "popularity99": 69.0,
     "director": "John G. Avildsen",
     "genre": [
       "Drama",
@@ -1699,7 +1699,7 @@ data = [
     "name": "The Karate Kid"
   },
   {
-    "99popularity": 86.0,
+    "popularity99": 86.0,
     "director": "Kevin McCarthy",
     "genre": [
       "Game-Show"
@@ -1708,7 +1708,7 @@ data = [
     "name": "Jeopardy!"
   },
   {
-    "99popularity": 82.0,
+    "popularity99": 82.0,
     "director": "Norman Tokar",
     "genre": [
       "Comedy",
@@ -1718,7 +1718,7 @@ data = [
     "name": "Leave It to Beaver"
   },
   {
-    "99popularity": 80.0,
+    "popularity99": 80.0,
     "director": "Arthur Penn",
     "genre": [
       "Biography",
@@ -1730,7 +1730,7 @@ data = [
     "name": "Bonnie and Clyde"
   },
   {
-    "99popularity": 89.0,
+    "popularity99": 89.0,
     "director": "Milos Forman",
     "genre": [
       "Drama"
@@ -1739,7 +1739,7 @@ data = [
     "name": "One Flew Over the Cuckoos Nest"
   },
   {
-    "99popularity": 81.0,
+    "popularity99": 81.0,
     "director": "Dave Wilson",
     "genre": [
       "Comedy",
@@ -1749,7 +1749,7 @@ data = [
     "name": "Saturday Night Live"
   },
   {
-    "99popularity": 88.0,
+    "popularity99": 88.0,
     "director": "Sergio Leone",
     "genre": [
       "Western"
@@ -1758,7 +1758,7 @@ data = [
     "name": "Cera una volta il West"
   },
   {
-    "99popularity": 84.0,
+    "popularity99": 84.0,
     "director": "F.W. Murnau",
     "genre": [
       "Drama",
@@ -1768,7 +1768,7 @@ data = [
     "name": "Sunrise : A Song of Two Humans"
   },
   {
-    "99popularity": 82.0,
+    "popularity99": 82.0,
     "director": "Roger Allers",
     "genre": [
       "Animation",
@@ -1781,7 +1781,7 @@ data = [
     "name": "The Lion King"
   },
   {
-    "99popularity": 75.0,
+    "popularity99": 75.0,
     "director": "Walt Disney",
     "genre": [
       "Animation",
@@ -1793,7 +1793,7 @@ data = [
     "name": "Plane Crazy"
   },
   {
-    "99popularity": 64.0,
+    "popularity99": 64.0,
     "director": "Rob Klug",
     "genre": [
       "Documentary",
@@ -1803,7 +1803,7 @@ data = [
     "name": "60 Minutes"
   },
   {
-    "99popularity": 77.0,
+    "popularity99": 77.0,
     "director": "Stanley Kubrick",
     "genre": [
       "Drama",
@@ -1813,7 +1813,7 @@ data = [
     "name": "Lolita"
   },
   {
-    "99popularity": 83.0,
+    "popularity99": 83.0,
     "director": "John McTiernan",
     "genre": [
       "Action",
@@ -1824,7 +1824,7 @@ data = [
     "name": "Die Hard"
   },
   {
-    "99popularity": 82.0,
+    "popularity99": 82.0,
     "director": "Otto Preminger",
     "genre": [
       "Crime",
@@ -1837,7 +1837,7 @@ data = [
     "name": "Laura"
   },
   {
-    "99popularity": 73.0,
+    "popularity99": 73.0,
     "director": "Dennis Hopper",
     "genre": [
       "Crime",
@@ -1847,7 +1847,7 @@ data = [
     "name": "Easy Rider"
   },
   {
-    "99popularity": 80.0,
+    "popularity99": 80.0,
     "director": "Don Siegel",
     "genre": [
       "Horror",
@@ -1858,7 +1858,7 @@ data = [
     "name": "Invasion of the Body Snatchers"
   },
   {
-    "99popularity": 78.0,
+    "popularity99": 78.0,
     "director": "Alain Resnais",
     "genre": [
       "Drama",
@@ -1869,7 +1869,7 @@ data = [
     "name": "Lanncca9e derniccacre ccca Marienbad"
   },
   {
-    "99popularity": 68.0,
+    "popularity99": 68.0,
     "director": "Walter Grauman",
     "genre": [
       "Drama",
@@ -1879,7 +1879,7 @@ data = [
     "name": "Lady in a Cage"
   },
   {
-    "99popularity": 76.0,
+    "popularity99": 76.0,
     "director": "Sam Raimi",
     "genre": [
       "Horror"
@@ -1888,7 +1888,7 @@ data = [
     "name": "The Evil Dead"
   },
   {
-    "99popularity": 83.0,
+    "popularity99": 83.0,
     "director": "Bobby Quinn",
     "genre": [
       "Comedy",
@@ -1899,7 +1899,7 @@ data = [
     "name": "The Tonight Show Starring Johnny Carson"
   },
   {
-    "99popularity": 66.0,
+    "popularity99": 66.0,
     "director": "Tony Scott",
     "genre": [
       "Action",
@@ -1910,7 +1910,7 @@ data = [
     "name": "Top Gun"
   },
   {
-    "99popularity": 69.0,
+    "popularity99": 69.0,
     "director": "Lewis Gilbert",
     "genre": [
       "Action",
@@ -1922,7 +1922,7 @@ data = [
     "name": "You Only Live Twice"
   },
   {
-    "99popularity": 75.0,
+    "popularity99": 75.0,
     "director": "Terence Young",
     "genre": [
       "Action",
@@ -1934,7 +1934,7 @@ data = [
     "name": "From Russia with Love"
   },
   {
-    "99popularity": 81.0,
+    "popularity99": 81.0,
     "director": "Hollingsworth Morse",
     "genre": [
       "Adventure",
@@ -1945,7 +1945,7 @@ data = [
     "name": "The Lone Ranger"
   },
   {
-    "99popularity": 52.0,
+    "popularity99": 52.0,
     "director": "Gerard Damiano",
     "genre": [
       "Adult",
@@ -1955,7 +1955,7 @@ data = [
     "name": "Deep Throat"
   },
   {
-    "99popularity": 76.0,
+    "popularity99": 76.0,
     "director": "Samuel Fuller",
     "genre": [
       "Drama",
@@ -1965,7 +1965,7 @@ data = [
     "name": "Shock Corridor"
   },
   {
-    "99popularity": 76.0,
+    "popularity99": 76.0,
     "director": "Robert Clouse",
     "genre": [
       "Action",
@@ -1977,7 +1977,7 @@ data = [
     "name": "Enter the Dragon"
   },
   {
-    "99popularity": 78.0,
+    "popularity99": 78.0,
     "director": "John Sturges",
     "genre": [
       "Western",
@@ -1988,7 +1988,7 @@ data = [
     "name": "The Magnificent Seven"
   },
   {
-    "99popularity": 77.0,
+    "popularity99": 77.0,
     "director": "Josef von Sternberg",
     "genre": [
       "Crime",
@@ -1998,7 +1998,7 @@ data = [
     "name": "Underworld"
   },
   {
-    "99popularity": 73.0,
+    "popularity99": 73.0,
     "director": "John Ford",
     "genre": [
       "Western"
@@ -2007,7 +2007,7 @@ data = [
     "name": "She Wore a Yellow Ribbon"
   },
   {
-    "99popularity": 67.0,
+    "popularity99": 67.0,
     "director": "Edouard Molinaro",
     "genre": [
       "Drama",
@@ -2017,7 +2017,7 @@ data = [
     "name": "Un dans la ville"
   },
   {
-    "99popularity": 76.0,
+    "popularity99": 76.0,
     "director": "Tim Burton",
     "genre": [
       "Crime",
@@ -2028,7 +2028,7 @@ data = [
     "name": "Batman"
   },
   {
-    "99popularity": 74.0,
+    "popularity99": 74.0,
     "director": "Clyde Geronimi",
     "genre": [
       "Animation",
@@ -2041,7 +2041,7 @@ data = [
     "name": "Cinderella"
   },
   {
-    "99popularity": 55.0,
+    "popularity99": 55.0,
     "director": "Lee Sholem",
     "genre": [
       "Action",
@@ -2053,7 +2053,7 @@ data = [
     "name": "Tarzans Magic Fountain"
   },
   {
-    "99popularity": 83.0,
+    "popularity99": 83.0,
     "director": "Fred Zinnemann",
     "genre": [
       "Drama",
@@ -2063,7 +2063,7 @@ data = [
     "name": "High Noon"
   },
   {
-    "99popularity": 77.0,
+    "popularity99": 77.0,
     "director": "Leni Riefenstahl",
     "genre": [
       "Documentary",
@@ -2073,7 +2073,7 @@ data = [
     "name": "Triumph des Willens"
   },
   {
-    "99popularity": 84.0,
+    "popularity99": 84.0,
     "director": "Frank Capra",
     "genre": [
       "Drama"
@@ -2082,7 +2082,7 @@ data = [
     "name": "Mr. Smith Goes to Washington"
   },
   {
-    "99popularity": 70.0,
+    "popularity99": 70.0,
     "director": "Randal Kleiser",
     "genre": [
       "Musical",
@@ -2092,7 +2092,7 @@ data = [
     "name": "Grease"
   },
   {
-    "99popularity": 81.0,
+    "popularity99": 81.0,
     "director": "D.W. Griffith",
     "genre": [
       "Drama",
@@ -2103,7 +2103,7 @@ data = [
     "name": "Intolerance : Loves Struggle Throughout the Ages"
   },
   {
-    "99popularity": 84.0,
+    "popularity99": 84.0,
     "director": "Quentin Tarantino",
     "genre": [
       "Crime",
@@ -2114,7 +2114,7 @@ data = [
     "name": "Reservoir Dogs"
   },
   {
-    "99popularity": 78.0,
+    "popularity99": 78.0,
     "director": "George Stevens",
     "genre": [
       "Drama",
@@ -2124,7 +2124,7 @@ data = [
     "name": "A Place in the Sun"
   },
   {
-    "99popularity": 85.0,
+    "popularity99": 85.0,
     "director": "Carol Reed",
     "genre": [
       "Film-Noir",
@@ -2135,7 +2135,7 @@ data = [
     "name": "The Third Man"
   },
   {
-    "99popularity": 83.0,
+    "popularity99": 83.0,
     "director": "Charles Chaplin",
     "genre": [
       "Adventure",
@@ -2148,7 +2148,7 @@ data = [
     "name": "The Gold Rush"
   },
   {
-    "99popularity": 79.0,
+    "popularity99": 79.0,
     "director": "Cecil B. DeMille",
     "genre": [
       "Adventure",
@@ -2159,7 +2159,7 @@ data = [
     "name": "The Ten Commandments"
   },
   {
-    "99popularity": 79.0,
+    "popularity99": 79.0,
     "director": "John Ford",
     "genre": [
       "Drama",
@@ -2169,7 +2169,7 @@ data = [
     "name": "My Darling Clementine"
   },
   {
-    "99popularity": 87.0,
+    "popularity99": 87.0,
     "director": "Billy Wilder",
     "genre": [
       "Drama",
@@ -2179,7 +2179,7 @@ data = [
     "name": "Sunset Blvd."
   },
   {
-    "99popularity": 63.0,
+    "popularity99": 63.0,
     "director": "Sean S. Cunningham",
     "genre": [
       "Horror",
@@ -2190,7 +2190,7 @@ data = [
     "name": "Friday the 13th"
   },
   {
-    "99popularity": 83.0,
+    "popularity99": 83.0,
     "director": "John Sturges",
     "genre": [
       "Adventure",
@@ -2202,7 +2202,7 @@ data = [
     "name": "The Great Escape"
   },
   {
-    "99popularity": 70.0,
+    "popularity99": 70.0,
     "director": "Clint Eastwood",
     "genre": [
       "Crime",
@@ -2214,7 +2214,7 @@ data = [
     "name": "Play Misty for Me"
   },
   {
-    "99popularity": 73.0,
+    "popularity99": 73.0,
     "director": "Cameron Crowe",
     "genre": [
       "Comedy",
@@ -2226,7 +2226,7 @@ data = [
     "name": "Jerry Maguire"
   },
   {
-    "99popularity": 73.0,
+    "popularity99": 73.0,
     "director": "Bretaigne Windust",
     "genre": [
       "Drama",
@@ -2237,7 +2237,7 @@ data = [
     "name": "The Enforcer"
   },
   {
-    "99popularity": 68.0,
+    "popularity99": 68.0,
     "director": "Richard Fleischer",
     "genre": [
       "Adventure",
@@ -2247,7 +2247,7 @@ data = [
     "name": "Fantastic Voyage"
   },
   {
-    "99popularity": 82.0,
+    "popularity99": 82.0,
     "director": "George Roy Hill",
     "genre": [
       "Adventure",
@@ -2259,7 +2259,7 @@ data = [
     "name": "Butch Cassidy and the Sundance Kid"
   },
   {
-    "99popularity": 86.0,
+    "popularity99": 86.0,
     "director": "Bob Sweeney",
     "genre": [
       "Comedy",
@@ -2269,7 +2269,7 @@ data = [
     "name": "The Andy Griffith Show"
   },
   {
-    "99popularity": 79.0,
+    "popularity99": 79.0,
     "director": "John Landis",
     "genre": [
       "Action",
@@ -2281,7 +2281,7 @@ data = [
     "name": "The Blues Brothers"
   },
   {
-    "99popularity": 86.0,
+    "popularity99": 86.0,
     "director": "Robert Zemeckis",
     "genre": [
       "Drama",
@@ -2291,7 +2291,7 @@ data = [
     "name": "Forrest Gump"
   },
   {
-    "99popularity": 84.0,
+    "popularity99": 84.0,
     "director": "Billy Wilder",
     "genre": [
       "Comedy"
@@ -2300,7 +2300,7 @@ data = [
     "name": "Some Like It Hot"
   },
   {
-    "99popularity": 48.0,
+    "popularity99": 48.0,
     "director": "Bruce Gowers",
     "genre": [
       "Game-Show",
@@ -2311,7 +2311,7 @@ data = [
     "name": "American Idol : The Search for a Superstar"
   },
   {
-    "99popularity": 88.0,
+    "popularity99": 88.0,
     "director": "David Fincher",
     "genre": [
       "Drama",
@@ -2322,7 +2322,7 @@ data = [
     "name": "Fight Club"
   },
   {
-    "99popularity": 51.0,
+    "popularity99": 51.0,
     "director": "Jack Arnold",
     "genre": [
       "Horror",
@@ -2332,7 +2332,7 @@ data = [
     "name": "Revenge of the Creature"
   },
   {
-    "99popularity": 85.0,
+    "popularity99": 85.0,
     "director": "Roman Polanski",
     "genre": [
       "Drama",
@@ -2343,7 +2343,7 @@ data = [
     "name": "Chinatown"
   },
   {
-    "99popularity": 81.0,
+    "popularity99": 81.0,
     "director": "Sam Peckinpah",
     "genre": [
       "Action",
@@ -2353,7 +2353,7 @@ data = [
     "name": "The Wild Bunch"
   },
   {
-    "99popularity": 88.0,
+    "popularity99": 88.0,
     "director": "Peter Jackson",
     "genre": [
       "Action",
@@ -2364,7 +2364,7 @@ data = [
     "name": "The Lord of the Rings : The Fellowship of the Ring"
   },
   {
-    "99popularity": 79.0,
+    "popularity99": 79.0,
     "director": "Frank Lloyd",
     "genre": [
       "Adventure",
@@ -2375,7 +2375,7 @@ data = [
     "name": "Mutiny on the Bounty"
   },
   {
-    "99popularity": 78.0,
+    "popularity99": 78.0,
     "director": "Luis el",
     "genre": [
       "Drama",
@@ -2385,7 +2385,7 @@ data = [
     "name": "El"
   },
   {
-    "99popularity": 84.0,
+    "popularity99": 84.0,
     "director": "Stanley Kubrick",
     "genre": [
       "Drama",
@@ -2395,7 +2395,7 @@ data = [
     "name": "Full Metal Jacket"
   },
   {
-    "99popularity": 55.0,
+    "popularity99": 55.0,
     "director": "Stanley Kramer",
     "genre": [
       "Action",
@@ -2408,7 +2408,7 @@ data = [
     "name": "The Pride and the Passion"
   },
   {
-    "99popularity": 80.0,
+    "popularity99": 80.0,
     "director": "Rob Reiner",
     "genre": [
       "Comedy",
@@ -2418,7 +2418,7 @@ data = [
     "name": "This Is Spinal Tap"
   },
   {
-    "99popularity": 78.0,
+    "popularity99": 78.0,
     "director": "Anthony Mann",
     "genre": [
       "Western"
@@ -2427,7 +2427,7 @@ data = [
     "name": "Winchester 73"
   },
   {
-    "99popularity": 88.0,
+    "popularity99": 88.0,
     "director": "Cliff Bole",
     "genre": [
       "Action",
@@ -2438,7 +2438,7 @@ data = [
     "name": "Star Trek : The Next Generation"
   },
   {
-    "99popularity": 73.0,
+    "popularity99": 73.0,
     "director": "Charles S. Dubin",
     "genre": [
       "Crime",
@@ -2449,7 +2449,7 @@ data = [
     "name": "Kojak"
   },
   {
-    "99popularity": 74.0,
+    "popularity99": 74.0,
     "director": "Yevgeni Bauer",
     "genre": [
       "Drama",
@@ -2459,7 +2459,7 @@ data = [
     "name": "Gryozy"
   },
   {
-    "99popularity": 49.0,
+    "popularity99": 49.0,
     "director": "Gregory J. Bonann",
     "genre": [
       "Drama",
@@ -2470,7 +2470,7 @@ data = [
     "name": "Baywatch"
   },
   {
-    "99popularity": 64.0,
+    "popularity99": 64.0,
     "director": "Gerald Potterton",
     "genre": [
       "Animation",
@@ -2486,7 +2486,7 @@ data = [
     "name": "Heavy Metal"
   },
   {
-    "99popularity": 80.0,
+    "popularity99": 80.0,
     "director": "Robert Wise",
     "genre": [
       "Drama",
@@ -2497,7 +2497,7 @@ data = [
     "name": "The Day the Earth Stood Still"
   },
   {
-    "99popularity": 77.0,
+    "popularity99": 77.0,
     "director": "Burt Gillett",
     "genre": [
       "Animation",
@@ -2510,7 +2510,7 @@ data = [
     "name": "Three Little Pigs"
   },
   {
-    "99popularity": 78.0,
+    "popularity99": 78.0,
     "director": "William A. Wellman",
     "genre": [
       "Action",
@@ -2521,7 +2521,7 @@ data = [
     "name": "The Public Enemy"
   },
   {
-    "99popularity": 71.0,
+    "popularity99": 71.0,
     "director": "Jim Sharman",
     "genre": [
       "Comedy",
@@ -2531,7 +2531,7 @@ data = [
     "name": "The Rocky Horror Picture Show"
   },
   {
-    "99popularity": 80.0,
+    "popularity99": 80.0,
     "director": "Barry Levinson",
     "genre": [
       "Drama"
@@ -2540,7 +2540,7 @@ data = [
     "name": "Rain Man"
   },
   {
-    "99popularity": 80.0,
+    "popularity99": 80.0,
     "director": "Jean Vigo",
     "genre": [
       "Drama",
@@ -2550,7 +2550,7 @@ data = [
     "name": "Latalante"
   },
   {
-    "99popularity": 82.0,
+    "popularity99": 82.0,
     "director": "Ingmar Bergman",
     "genre": [
       "Drama",
@@ -2560,7 +2560,7 @@ data = [
     "name": "Persona"
   },
   {
-    "99popularity": 80.0,
+    "popularity99": 80.0,
     "director": "George A. Romero",
     "genre": [
       "Action",
@@ -2570,7 +2570,7 @@ data = [
     "name": "Dawn of the Dead"
   },
   {
-    "99popularity": 74.0,
+    "popularity99": 74.0,
     "director": "William F. Claxton",
     "genre": [
       "Action",
@@ -2584,7 +2584,7 @@ data = [
     "name": "Bonanza"
   },
   {
-    "99popularity": 68.0,
+    "popularity99": 68.0,
     "director": "Adrian Lyne",
     "genre": [
       "Drama",
@@ -2594,7 +2594,7 @@ data = [
     "name": "Fatal Attraction"
   },
   {
-    "99popularity": 60.0,
+    "popularity99": 60.0,
     "director": "Edward L. Cahn",
     "genre": [
       "Horror",
@@ -2604,7 +2604,7 @@ data = [
     "name": "It! The Terror from Beyond Space"
   },
   {
-    "99popularity": 83.0,
+    "popularity99": 83.0,
     "director": "John Moffitt",
     "genre": [
       "Comedy",
@@ -2614,7 +2614,7 @@ data = [
     "name": "Toast of the Town"
   },
   {
-    "99popularity": 79.0,
+    "popularity99": 79.0,
     "director": "William Friedkin",
     "genre": [
       "Action",
@@ -2625,7 +2625,7 @@ data = [
     "name": "The French Connection"
   },
   {
-    "99popularity": 73.0,
+    "popularity99": 73.0,
     "director": "Clyde Geronimi",
     "genre": [
       "Animation",
@@ -2638,7 +2638,7 @@ data = [
     "name": "Peter Pan"
   },
   {
-    "99popularity": 78.0,
+    "popularity99": 78.0,
     "director": "John Nicolella",
     "genre": [
       "Action",
@@ -2650,7 +2650,7 @@ data = [
     "name": "Miami Vice"
   },
   {
-    "99popularity": 64.0,
+    "popularity99": 64.0,
     "director": "George Lucas",
     "genre": [
       "Action",
@@ -2662,7 +2662,7 @@ data = [
     "name": "Star Wars : Episode I - The Phantom Menace"
   },
   {
-    "99popularity": 88.0,
+    "popularity99": 88.0,
     "director": "Martin Scorsese",
     "genre": [
       "Crime",
@@ -2673,7 +2673,7 @@ data = [
     "name": "Goodfellas"
   },
   {
-    "99popularity": 62.0,
+    "popularity99": 62.0,
     "director": "Michael Curtiz",
     "genre": [
       "Drama",
@@ -2683,7 +2683,7 @@ data = [
     "name": "The Egyptian"
   },
   {
-    "99popularity": 76.0,
+    "popularity99": 76.0,
     "director": "Michael OHerlihy",
     "genre": [
       "Crime",
@@ -2694,7 +2694,7 @@ data = [
     "name": "Hawaii Five-O"
   },
   {
-    "99popularity": 66.0,
+    "popularity99": 66.0,
     "director": "Dennis Donnelly",
     "genre": [
       "Action",
@@ -2708,4 +2708,7 @@ data = [
   }
 ]
 
-print(str(type(data[1]["genre"])))
+url = 'http://127.0.0.1:8000/movies/movies_root_api/movies_root_api/'
+
+for x in data:
+    print(requests.post(url, data=x))

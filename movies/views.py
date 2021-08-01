@@ -12,8 +12,8 @@ from .custompermissions import MyPermissions
 class AdminMovieApiView(ModelViewSet):
     '''This code will give access to get, post, put, patch, delete to the user having staff privilege.
     Any other active user will have access to get method only'''
-    authentication_classes = [BasicAuthentication]
-    permission_classes = [MyPermissions]
+    # authentication_classes = [BasicAuthentication]
+    # permission_classes = [MyPermissions]
     queryset = Movies.objects.all()
     serializer_class = MovieSerializer
     filter_class = MoviesFilter
